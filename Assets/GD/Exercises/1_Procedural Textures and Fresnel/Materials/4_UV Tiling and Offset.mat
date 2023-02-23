@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 4_UV Tiling and Offset
+  m_Shader: {fileID: -6465566751694194690, guid: 62cb3251c59030a43b0ab540ae7b7736, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _SampleTexture2D_28d9da4ff8584b6b82728a4322f8553e_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 7e267e05f599cd145aed38ad3fd5d8d6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_376f49d528bd4277a1f4a5cbfb8a2474_Texture_1:
+        m_Texture: {fileID: 2800000, guid: b1b8d7f6e708f154c910003b9ab3d32a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_39ecfd36a8254892b52dc38be43c907f_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 61a3c9c162b6a0943931c1198cd969aa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_4b8db932b72a4033966abab297b3778e_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 1fa55f372783e7a4d914bd5af76123bb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_535328050418445face959fcc6ded0c7_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 61a3c9c162b6a0943931c1198cd969aa, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_70e31c57e3cd442e9f5d1913a9777e92_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 751f51c23ef81b848a635f38b1ce770e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_8570ce7a7d8b470390e5134466d05bfc_Texture_1:
+        m_Texture: {fileID: 2800000, guid: fa76895ad8ba9b749993ff5cfafed428, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_8bfbf4bab8514cfd9ee60a94399382a1_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 751f51c23ef81b848a635f38b1ce770e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_c09f9afdf1054c8c96cff0b4935fe804_Texture_1:
+        m_Texture: {fileID: 2800000, guid: b1b8d7f6e708f154c910003b9ab3d32a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_cb0f6a1e264d41429b692430deb48a79_Texture_1:
+        m_Texture: {fileID: 2800000, guid: 1fa55f372783e7a4d914bd5af76123bb, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_d19c391702744f389d13df5686305e80_Texture_1:
+        m_Texture: {fileID: 2800000, guid: fa76895ad8ba9b749993ff5cfafed428, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - Vector1_229845b7708742a48f78b2e4b628f941: 1
+    - Vector1_66e52fd7434b4b128d4f613e6d14ed3b: 180
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    m_Colors:
+    - Vector2_5999957bebb24b1b96f16661c09762c3: {r: -1.9, g: 0.87, b: 0, a: 0}
+    - Vector2_5e52b40f113a40d1b63589f3195c81b7: {r: 3.12, g: 4, b: 0, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &4110328552284765788
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5

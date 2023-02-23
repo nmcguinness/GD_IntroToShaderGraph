@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Fragment Procedural Texture
+  m_Shader: {fileID: -6465566751694194690, guid: 57b7161770ff74d4788d8c2658c75c3a,
+    type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _ProceduralTextureBase:
+        m_Texture: {fileID: 2800000, guid: dd2efc9ef90c67340a33309e1bf9611b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_5fe98b43dce54d0e9107538569ae7642_Texture_1:
+        m_Texture: {fileID: 2800000, guid: dd2efc9ef90c67340a33309e1bf9611b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SampleTexture2D_7c216001f43149c8a6b71b75d7698dd2_Texture_1:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - Boolean_afcb884ea3344918b56118ca6f8b0cc7: 1
+    - Vector1_690a595ab52f4d05bdd41f420ff68fc7: 1
+    - Vector1_be5e7d5d840a4add9fb768b32c447b0a: 0.145
+    - Vector1_d81d7457c0974bb8ae50cb118c1826ca: 0.352
+    - _QueueControl: 0
+    - _QueueOffset: 0
+    m_Colors:
+    - Vector2_71234f09a1414f7ca8b40dbceb12d2c0: {r: -0.07, g: 0.19, b: -0.06, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &3065352543058429480
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5

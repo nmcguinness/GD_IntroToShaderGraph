@@ -371,7 +371,7 @@ GameObject:
   m_Layer: 0
   m_Name: Vertex Displacement using Normals
   m_TagString: Untagged
-  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -474,15 +474,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: a3244c08ab4d16f45b564401c17e84d4, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 6.0205
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: a3244c08ab4d16f45b564401c17e84d4, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 6.0205
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: a3244c08ab4d16f45b564401c17e84d4, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 6.0205
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: a3244c08ab4d16f45b564401c17e84d4, type: 3}
       propertyPath: m_LocalPosition.x
@@ -490,7 +490,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: a3244c08ab4d16f45b564401c17e84d4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.43
+      value: -7.07
       objectReference: {fileID: 0}
     - target: {fileID: 400004, guid: a3244c08ab4d16f45b564401c17e84d4, type: 3}
       propertyPath: m_LocalPosition.z

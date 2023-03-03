@@ -93,8 +93,8 @@ Material:
     m_Ints: []
     m_Floats:
     - _AlphaClip: 0
-    - _Amplitude: 1
-    - _AngularSpeed: 1
+    - _Amplitude: 0.1
+    - _AngularSpeed: 7.6
     - _Blend: 0
     - _BumpScale: 1
     - _ClearCoatMask: 0
@@ -113,9 +113,9 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _MaxDistance: 5
+    - _MaxDistance: 10
     - _Metallic: 0
-    - _Normal_Lerp_Factor: 0.548
+    - _Normal_Lerp_Factor: 0.551
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _PhaseAngle: 0
@@ -133,7 +133,7 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _Diffuse_Color: {r: 0.9150943, g: 0.26474422, b: 0.26474422, a: 0}
-    - _Distortion_Centre: {r: 0, g: 0, b: 0, a: 0}
+    - _Distortion_Centre: {r: 0, g: 5, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _Random_Seed: {r: 14.23442, g: 17.213, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}

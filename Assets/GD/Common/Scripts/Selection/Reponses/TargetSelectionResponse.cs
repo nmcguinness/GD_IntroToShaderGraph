@@ -34,24 +34,20 @@ namespace GD.Selection
             //x.ToGround(0);
         }
 
-        public void OnSelect(Transform selection)
+        void ISelectionResponse.OnDeselect(Transform transform)
+        {
+            currentTargetInstance.SetActive(false);
+        }
+
+        void ISelectionResponse.OnSelect(Transform transform, RaycastHit hitInfo)
         {
             if (currentTargetInstance != null)
             {
-                RaycastHit hitInfo;
-                if (Physics.Raycast(selection.position, -selection.up, out hitInfo, rayCastDepth, targetGroundLayerMask))
-                {
-                    currentTargetInstance.transform.position = selection.position - new Vector3(0, hitInfo.distance - targetOffset, 0);
-                    float mag = selection.GetComponent<Collider>().bounds.size.magnitude / scaleFactor;
-                    currentTargetInstance.transform.localScale = new Vector3(mag, mag, mag);
-                    currentTargetInstance.SetActive(true);
-                }
+                currentTargetInstance.transform.position = transform.position - new Vector3(0, hitInfo.distance - targetOffset, 0);
+                float mag = transform.GetComponent<Collider>().bounds.size.magnitude / scaleFactor;
+                currentTargetInstance.transform.localScale = new Vector3(mag, mag, mag);
+                currentTargetInstance.SetActive(true);
             }
-        }
-
-        public void OnDeselect(Transform selection)
-        {
-            currentTargetInstance.SetActive(false);
         }
     }
 }

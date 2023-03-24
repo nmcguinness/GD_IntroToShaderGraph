@@ -14,7 +14,6 @@ namespace GD.Selection
         private void Start()
         {
             distortionCentreID = Shader.PropertyToID("_Distortion_Centre");
-            //      displaceVerticesID = Shader.PropertyToID("_Displace_Vertices");
         }
 
         void ISelectionResponse.OnSelect(Transform transform, RaycastHit hitInfo)
@@ -22,16 +21,16 @@ namespace GD.Selection
             if (material == null)
                 return;
 
-            //       material.SetInteger(displaceVerticesID, 1);
-            material.SetVector(distortionCentreID, transform.InverseTransformPoint(hitInfo.point));
+            material.SetVector(distortionCentreID, hitInfo.point);
+            //   transform.InverseTransformPoint(hitInfo.point));
+
+            //           material.SetVector("_Distortion_Centre", new Vector3(0, 10, 20));
         }
 
         void ISelectionResponse.OnDeselect(Transform transform)
         {
-            if (material == null)
-                return;
-
-            //     material.SetInteger(displaceVerticesID, 0);
+            //if (material == null)
+            //    return;
         }
     }
 }

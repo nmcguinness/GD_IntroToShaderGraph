@@ -21,22 +21,17 @@ public class VertexDisplacementManager : MonoBehaviour
     private void Update()
     {
         //if (currentSelection != null)
-        {
-            selectionResponse.OnDeselect(currentSelection);
-        }
+        //{
+        //    selectionResponse.OnDeselect(currentSelection);
+        //}
 
         selector.Check(rayProvider.CreateRay());
         currentSelection = selector.GetSelection();
         currentSelectionHitInfo = selector.GetHitInfo();
 
-        if (currentSelection != null)// && (bMouseDrag))
+        if (currentSelection != null)
         {
             selectionResponse.OnSelect(currentSelection, currentSelectionHitInfo);
         }
-    }
-
-    private void OnMouseDrag()
-    {
-        bMouseDrag = true;
     }
 }

@@ -61,6 +61,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _Noise_Scale: 4.59
+    - _Noise_Strength: 0
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors: []

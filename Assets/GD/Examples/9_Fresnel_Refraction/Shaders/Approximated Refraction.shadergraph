@@ -2613,15 +2613,15 @@
     "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
     "m_ObjectId": "f8c025606602483ebfaed25a15ac0329",
     "m_Title": "Refraction in Unity",
-    "m_Content": "https://www.youtube.com/watch?v=inht8WYX-A4\nhttps://www.youtube.com/watch?v=tIW2zM6ed8o&t=889s",
+    "m_Content": "Ice Refraction in Unity Shader Graph\n- https://youtu.be/inht8WYX-A4\n\nFor a more physically faithful representation (using HDRP) see:\nGlass Shader - Advanced Materials - Episode 16\n- https://youtu.be/wKbt6KkZkxs\n\nOther Useful Channels:\nUnity Shader Graph: Crystals!\n- https://youtu.be/WdxBJVCBr_A\n\nUnity Shadergraph Tutorial - Cracked Ice\n- https://youtu.be/rlGNbq5p5CQ",
     "m_TextSize": 0,
     "m_Theme": 0,
     "m_Position": {
         "serializedVersion": "2",
-        "x": -140.66665649414063,
-        "y": -1546.6666259765625,
-        "width": 469.7900085449219,
-        "height": 91.22998046875
+        "x": 1139.3333740234375,
+        "y": -1278.0,
+        "width": 469.6666259765625,
+        "height": 214.0
     },
     "m_Group": {
         "m_Id": ""

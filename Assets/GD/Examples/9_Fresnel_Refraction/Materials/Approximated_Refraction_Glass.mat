@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Refraction_Glass
+  m_Name: Approximated_Refraction_Glass
   m_Shader: {fileID: -6465566751694194690, guid: 035c5e5696288f14895bf23bd598cc79,
     type: 3}
   m_ValidKeywords: []

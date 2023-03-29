@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 202152870}
   - component: {fileID: 202152869}
   m_Layer: 0
-  m_Name: Ice
+  m_Name: Approximated Refraction - Ice
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -200,7 +200,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 202152868}
   m_LocalRotation: {x: -0, y: -0.7159163, z: -0, w: 0.6981863}
-  m_LocalPosition: {x: 0.29540348, y: -0.02, z: -0.29}
+  m_LocalPosition: {x: 0.29540348, y: -0.02, z: 0.702}
   m_LocalScale: {x: 25.895962, y: 25.895962, z: 25.895962}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -356,7 +356,7 @@ GameObject:
   - component: {fileID: 891060034}
   - component: {fileID: 891060033}
   m_Layer: 0
-  m_Name: Glass
+  m_Name: Approximated Refraction - Glass
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -433,8 +433,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 891060032}
   m_LocalRotation: {x: -0, y: -0.73414415, z: -0, w: 0.67899364}
-  m_LocalPosition: {x: 0.01, y: 0.825, z: -2.642}
-  m_LocalScale: {x: 1.6, y: 1.6, z: 0.2}
+  m_LocalPosition: {x: -0.071, y: 0.825, z: -1.65}
+  m_LocalScale: {x: 1.6, y: 1.6, z: 0.2522}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -599,7 +599,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1117698722}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.645, z: 1.368}
+  m_LocalPosition: {x: 0, y: 0.645, z: 2.3600001}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

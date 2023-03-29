@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Wind Effect - Tall Tree
+  m_Name: Grass Sway - Tall Tree
   m_Shader: {fileID: -6465566751694194690, guid: cbd49ed3514312c478cae5b187eecebe,
     type: 3}
   m_ValidKeywords: []
@@ -53,6 +53,9 @@ Material:
     m_Ints: []
     m_Floats:
     - Vector1_C61AECE6: 0.2
+    - _Bias: 0
+    - _Grass_Sway_Delay: 3.14
+    - _Phase: 0
     - _Phase_Delay: 2.59
     - _QueueControl: 0
     - _QueueOffset: 0

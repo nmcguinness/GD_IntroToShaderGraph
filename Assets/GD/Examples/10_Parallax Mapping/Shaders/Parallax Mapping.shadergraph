@@ -475,7 +475,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "007363eb6a23489cb1538f024c233a43",
     "m_Id": 0,
-    "m_DisplayName": "Surface Smoothness",
+    "m_DisplayName": "Smoothness",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -512,10 +512,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1550.6666259765625,
-            "y": 647.3333740234375,
-            "width": 126.666748046875,
-            "height": 36.0
+            "x": -1633.0,
+            "y": 578.0,
+            "width": 197.6666259765625,
+            "height": 34.0
         }
     },
     "m_Slots": [
@@ -853,8 +853,8 @@
     "m_Theme": 0,
     "m_Position": {
         "serializedVersion": "2",
-        "x": -1420.0,
-        "y": -372.6666564941406,
+        "x": 208.0,
+        "y": -141.33334350585938,
         "width": 830.6666259765625,
         "height": 162.6666717529297
     },
@@ -974,7 +974,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
     "m_ObjectId": "378ee6dc29e2470fb7e9a058eff58353",
     "m_Id": 0,
-    "m_DisplayName": "UVOffset",
+    "m_DisplayName": "Parallax Map UV Offset",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -1140,10 +1140,10 @@
         "m_Expanded": true,
         "m_Position": {
             "serializedVersion": "2",
-            "x": -1550.6666259765625,
-            "y": 552.0,
-            "width": 122.0,
-            "height": 36.0
+            "x": -1628.6666259765625,
+            "y": 513.6666870117188,
+            "width": 193.333251953125,
+            "height": 34.0
         }
     },
     "m_Slots": [
@@ -1615,7 +1615,7 @@
     "m_Guid": {
         "m_GuidSerialized": "7a42c3b6-efef-4e2b-af8c-efc83acf8b4d"
     },
-    "m_Name": "HeightMap",
+    "m_Name": "Parallax Height Map",
     "m_DefaultRefNameVersion": 0,
     "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Texture2D_85295d4c7c9a45e0989c62dcbb89b187",
@@ -1770,7 +1770,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector2MaterialSlot",
     "m_ObjectId": "8a44cca5a55a447a8fc7d3344c3d307d",
     "m_Id": 0,
-    "m_DisplayName": "UVTiling",
+    "m_DisplayName": "Parallax Map UV Tiling",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -1978,6 +1978,12 @@
             "m_Id": "384d35d05566462f8b360164cf83902e"
         },
         {
+            "m_Id": "f4ad270e560f4bc49a521eaa28e021dd"
+        },
+        {
+            "m_Id": "e4edd61764e3499aaf7527c15e890ea8"
+        },
+        {
             "m_Id": "0c693c86241446aab50b66bd83f52443"
         },
         {
@@ -1988,12 +1994,6 @@
         },
         {
             "m_Id": "603a3c68c14e41d3b8325cfa95fdb74a"
-        },
-        {
-            "m_Id": "f4ad270e560f4bc49a521eaa28e021dd"
-        },
-        {
-            "m_Id": "e4edd61764e3499aaf7527c15e890ea8"
         },
         {
             "m_Id": "aee7b7c9772548168efe4c73467c99a1"
@@ -2164,7 +2164,7 @@
     "m_Guid": {
         "m_GuidSerialized": "398d6769-bc56-4a09-8e23-d5f9d8cb6201"
     },
-    "m_Name": "UVTiling",
+    "m_Name": "Parallax Map UV Tiling",
     "m_DefaultRefNameVersion": 0,
     "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Vector2_aee7b7c9772548168efe4c73467c99a1",
@@ -2296,7 +2296,7 @@
     "m_Guid": {
         "m_GuidSerialized": "23e6275d-9b02-423b-9348-793ee4875f08"
     },
-    "m_Name": "UVOffset",
+    "m_Name": "Parallax Map UV Offset",
     "m_DefaultRefNameVersion": 0,
     "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Vector2_bf7224ee2cde4ef08f4b24fa8c4194d6",
@@ -2354,7 +2354,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Texture2DMaterialSlot",
     "m_ObjectId": "c0b0ff4ca99d4544ab8075e4f02304f6",
     "m_Id": 0,
-    "m_DisplayName": "HeightMap",
+    "m_DisplayName": "Parallax Height Map",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -2691,7 +2691,7 @@
     "m_Guid": {
         "m_GuidSerialized": "0cb79998-8cb3-4ac4-acc8-606238e2f84f"
     },
-    "m_Name": "Surface Smoothness",
+    "m_Name": "Smoothness",
     "m_DefaultRefNameVersion": 0,
     "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Vector1_e4edd61764e3499aaf7527c15e890ea8",

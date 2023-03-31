@@ -35,7 +35,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - Texture2D_77a5d233ca4b4ef8b9624a35cf3f620c:
-        m_Texture: {fileID: 2800000, guid: 9a50f38d2c090e44aa7418215ef8db22, type: 3}
+        m_Texture: {fileID: 2800000, guid: a64758c1bd25f3649b7bee5bfacc6042, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _BaseMap:
@@ -97,7 +97,7 @@ Material:
     m_Ints: []
     m_Floats:
     - Vector1_0869c47b15fd432f979fbd85f4b95224: 5
-    - Vector1_5a4e72c830234f0eb375df8be3631ab0: 0.07
+    - Vector1_5a4e72c830234f0eb375df8be3631ab0: 0.1
     - Vector1_e814812f4e274caa839d746db0e3a3ea: 0.3
     - _AlphaClip: 0
     - _Blend: 0
@@ -133,5 +133,6 @@ Material:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Refraction_Displacement_Offset: {r: 0.29, g: 0, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []

@@ -659,10 +659,10 @@
     "m_Guid": {
         "m_GuidSerialized": "56dbffe8-8d72-44f4-8cd8-c3e7bae60adf"
     },
-    "m_Name": "NormalMap",
+    "m_Name": "Normal Map",
     "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "NormalMap",
-    "m_DefaultReferenceName": "_NormalMap",
+    "m_RefNameGeneratedByDisplayName": "Normal Map",
+    "m_DefaultReferenceName": "_Normal_Map",
     "m_OverrideReferenceName": "",
     "m_GeneratePropertyBlock": true,
     "m_UseCustomSlotLabel": false,
@@ -763,7 +763,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Texture2DMaterialSlot",
     "m_ObjectId": "12f0b9da58a14dfeabb7182b306bc4aa",
     "m_Id": 0,
-    "m_DisplayName": "NormalMap",
+    "m_DisplayName": "Normal Map",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -997,7 +997,7 @@
     "m_Guid": {
         "m_GuidSerialized": "62574839-f9cc-42e4-ab36-2a30f64e311a"
     },
-    "m_Name": "DiffuseMap",
+    "m_Name": "Diffuse Map",
     "m_DefaultRefNameVersion": 0,
     "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Texture2D_384d35d05566462f8b360164cf83902e",
@@ -1024,7 +1024,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Texture2DMaterialSlot",
     "m_ObjectId": "3a477798b67e4ca5b8ff2cc6e9934737",
     "m_Id": 0,
-    "m_DisplayName": "DiffuseMap",
+    "m_DisplayName": "Diffuse Map",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",
@@ -1191,7 +1191,7 @@
     "m_Guid": {
         "m_GuidSerialized": "b063f8e5-a010-47be-abdb-aff7fd731a74"
     },
-    "m_Name": "NormalStrength",
+    "m_Name": "Normal Strength",
     "m_DefaultRefNameVersion": 0,
     "m_RefNameGeneratedByDisplayName": "",
     "m_DefaultReferenceName": "Vector1_4d6abc3118b04a769888406434cea394",
@@ -1203,11 +1203,11 @@
     "overrideHLSLDeclaration": false,
     "hlslDeclarationOverride": 0,
     "m_Hidden": false,
-    "m_Value": 0.5,
+    "m_Value": 1.0,
     "m_FloatType": 1,
     "m_RangeValues": {
         "x": 0.0,
-        "y": 0.5
+        "y": 2.0
     }
 }
 
@@ -1395,7 +1395,7 @@
     "m_FloatType": 1,
     "m_RangeValues": {
         "x": 0.0,
-        "y": 4.0
+        "y": 5.0
     }
 }
 
@@ -2009,7 +2009,7 @@
     "m_Type": "UnityEditor.ShaderGraph.Vector1MaterialSlot",
     "m_ObjectId": "a0d3048a12944362a143922210b09419",
     "m_Id": 0,
-    "m_DisplayName": "NormalStrength",
+    "m_DisplayName": "Normal Strength",
     "m_SlotType": 1,
     "m_Hidden": false,
     "m_ShaderOutputName": "Out",

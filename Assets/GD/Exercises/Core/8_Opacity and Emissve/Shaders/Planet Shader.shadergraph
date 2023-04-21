@@ -77,7 +77,11 @@
         }
     ],
     "m_GroupDatas": [],
-    "m_StickyNoteDatas": [],
+    "m_StickyNoteDatas": [
+        {
+            "m_Id": "0b33f7d7feeb47bab859cc35d52b534e"
+        }
+    ],
     "m_Edges": [
         {
             "m_OutputSlot": {
@@ -295,6 +299,26 @@
     "m_Value": 0.0,
     "m_DefaultValue": 0.0,
     "m_Labels": []
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
+    "m_ObjectId": "0b33f7d7feeb47bab859cc35d52b534e",
+    "m_Title": "Useful",
+    "m_Content": "How do I Make a Skybox?\n\nhttps://docs.unity3d.com/560/Documentation/Manual/HOWTO-UseSkybox.html",
+    "m_TextSize": 0,
+    "m_Theme": 0,
+    "m_Position": {
+        "serializedVersion": "2",
+        "x": 254.0,
+        "y": 19.0,
+        "width": 1120.0,
+        "height": 196.0
+    },
+    "m_Group": {
+        "m_Id": ""
+    }
 }
 
 {

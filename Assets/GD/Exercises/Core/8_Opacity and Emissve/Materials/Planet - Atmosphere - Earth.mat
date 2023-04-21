@@ -59,6 +59,6 @@ Material:
     - _Rotation_Multiplier: 0.01
     - _Rotation_Speed_Multiplier: 0
     m_Colors:
-    - _Atmosphere_Emissive_Color: {r: 0.9339623, g: 0.9339623, b: 0.9339623, a: 0}
+    - _Atmosphere_Emissive_Color: {r: 0.49056602, g: 0.4743681, b: 0.4743681, a: 0}
     - _Atomsphere_Color: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []

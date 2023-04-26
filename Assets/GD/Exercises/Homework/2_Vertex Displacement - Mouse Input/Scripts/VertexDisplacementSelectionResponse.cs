@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 namespace GD.Selection
@@ -22,9 +23,7 @@ namespace GD.Selection
                 return;
 
             material.SetVector(distortionCentreID, hitInfo.point);
-            //   transform.InverseTransformPoint(hitInfo.point));
-
-            //           material.SetVector("_Distortion_Centre", new Vector3(0, 10, 20));
+            //material.SetVector("_Distortion_Centre", new Vector3(0, 10, 20));
         }
 
         void ISelectionResponse.OnDeselect(Transform transform)

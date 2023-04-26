@@ -27,5 +27,6 @@ public class SunDirectionSetter : MonoBehaviour
 
         //use hash rather than reference name to speed up setting each update
         surfaceMaterial.SetVector(sunDirectionID, sunLight.transform.forward);
+        // surfaceMaterial.SetVector("_Sun_Direction", sunLight.transform.forward);
     }
 }

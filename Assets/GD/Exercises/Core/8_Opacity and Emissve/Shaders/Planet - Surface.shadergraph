@@ -431,7 +431,7 @@
     "m_Type": "UnityEditor.ShaderGraph.StickyNoteData",
     "m_ObjectId": "0b33f7d7feeb47bab859cc35d52b534e",
     "m_Title": "Useful",
-    "m_Content": "How do I Make a Skybox?\n\nhttps://docs.unity3d.com/560/Documentation/Manual/HOWTO-UseSkybox.html",
+    "m_Content": "How do I Make a Skybox?\n\nhttps://docs.unity3d.com/560/Documentation/Manual/HOWTO-UseSkybox.html\n\nhttps://www.codinblack.com/shader-graph-tutorial-for-beginners-a-complete-introduction/#lights",
     "m_TextSize": 0,
     "m_Theme": 0,
     "m_Position": {

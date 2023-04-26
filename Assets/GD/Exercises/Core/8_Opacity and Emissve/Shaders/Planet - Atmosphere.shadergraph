@@ -7,9 +7,6 @@
             "m_Id": "d22460f003a44e36b0dbbb7f48841094"
         },
         {
-            "m_Id": "b75cc05f8d95471cb90489fae889d4e8"
-        },
-        {
             "m_Id": "7a35dd986a4640dd9a9b353eb39cb525"
         },
         {
@@ -1020,9 +1017,6 @@
             "m_Id": "d22460f003a44e36b0dbbb7f48841094"
         },
         {
-            "m_Id": "b75cc05f8d95471cb90489fae889d4e8"
-        },
-        {
             "m_Id": "7a35dd986a4640dd9a9b353eb39cb525"
         },
         {
@@ -1207,33 +1201,6 @@
 }
 
 {
-    "m_SGVersion": 1,
-    "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
-    "m_ObjectId": "b75cc05f8d95471cb90489fae889d4e8",
-    "m_Guid": {
-        "m_GuidSerialized": "011e0f58-9041-4ac1-b19b-9d22610a2d57"
-    },
-    "m_Name": "Brightness Multiplier",
-    "m_DefaultRefNameVersion": 1,
-    "m_RefNameGeneratedByDisplayName": "Brightness Multiplier",
-    "m_DefaultReferenceName": "_Brightness_Multiplier",
-    "m_OverrideReferenceName": "",
-    "m_GeneratePropertyBlock": true,
-    "m_UseCustomSlotLabel": false,
-    "m_CustomSlotLabel": "",
-    "m_Precision": 0,
-    "overrideHLSLDeclaration": false,
-    "hlslDeclarationOverride": 0,
-    "m_Hidden": false,
-    "m_Value": 1.0,
-    "m_FloatType": 1,
-    "m_RangeValues": {
-        "x": 0.0,
-        "y": 20.0
-    }
-}
-
-{
     "m_SGVersion": 0,
     "m_Type": "UnityEditor.ShaderGraph.GroupData",
     "m_ObjectId": "b8f55e89476546fd96bf93e3d9354cdc",
@@ -1343,8 +1310,8 @@
         "m_Position": {
             "serializedVersion": "2",
             "x": -1079.3333740234375,
-            "y": 431.6666564941406,
-            "width": 219.99993896484376,
+            "y": 430.3333435058594,
+            "width": 220.00006103515626,
             "height": 34.0
         }
     },

@@ -63,7 +63,7 @@ Material:
     - _Bands: 32
     - _Color_Bands: 6
     - _Min_Edge_Angle: 82.7
-    - _Min_Edge_Angle_In_Degrees: 69.7
+    - _Min_Edge_Angle_In_Degrees: 81.2
     - _Normal_Strength: 1
     - _QueueControl: 0
     - _QueueOffset: 0

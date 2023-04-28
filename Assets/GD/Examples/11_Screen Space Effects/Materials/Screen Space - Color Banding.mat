@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-3357203357458498193
+--- !u!114 &-1267402876474915883
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Screen Space - Grayscale
-  m_Shader: {fileID: -6465566751694194690, guid: 3e195408730fbe042877f23e492d28fb,
+  m_Name: Screen Space - Color Banding
+  m_Shader: {fileID: -6465566751694194690, guid: edfe565214c5d9041b85a1b92939c875,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -48,6 +48,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _Color_Bands: 8
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors: []

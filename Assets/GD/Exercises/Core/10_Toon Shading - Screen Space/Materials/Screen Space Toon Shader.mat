@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-3054668195866113203
+--- !u!114 &-7026421848889373870
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20,8 +20,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Screen Space - Iris Shot
-  m_Shader: {fileID: -6465566751694194690, guid: 5b2d426446d372a4b8c94f4e4d500f74,
+  m_Name: Screen Space Toon Shader
+  m_Shader: {fileID: -6465566751694194690, guid: 76ed2418e4cfa8f43a915bf93f7141e9,
     type: 3}
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -48,10 +48,14 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Iris_Radius: 0.59
+    - _Color_Bands: 16
+    - _Depth_Multiplier: 200
+    - _Edge_Pixel_Width: 2
+    - _Effect_Lerp: 0.788
+    - _FCM: 263.1
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
-    - _Fill_Color: {r: 0.16981131, g: 0.15459237, b: 0.15459237, a: 0}
-    - _Iris_Centre_Point: {r: -0.05, g: 0, b: 0, a: 0}
+    - _Edge_Color: {r: 1, g: 0, b: 0, a: 0}
+    - _Offset: {r: -1, g: -1, b: 0, a: 0}
   m_BuildTextureStacks: []

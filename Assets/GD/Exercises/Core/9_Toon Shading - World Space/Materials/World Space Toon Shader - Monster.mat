@@ -57,7 +57,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _Color_Bands: 1
-    - _Min_Edge_Angle_In_Degrees: 70.6
+    - _Min_Edge_Angle_In_Degrees: 35
     - _Normal_Strength: 1.37
     - _QueueControl: 0
     - _QueueOffset: 0
@@ -65,4 +65,5 @@ Material:
     - _Blend_Color: {r: 1, g: 1, b: 1, a: 0}
     - _Edge_Color: {r: 0, g: 0, b: 0, a: 0}
     - _Emissive: {r: 17.733871, g: 3.7921467, b: 3.7921467, a: 0}
+    - _Emissive_Color: {r: 8, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []

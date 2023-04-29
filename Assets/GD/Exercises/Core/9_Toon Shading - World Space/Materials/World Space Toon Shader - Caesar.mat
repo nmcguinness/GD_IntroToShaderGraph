@@ -63,13 +63,13 @@ Material:
     - _Bands: 32
     - _Color_Bands: 6
     - _Min_Edge_Angle: 82.7
-    - _Min_Edge_Angle_In_Degrees: 87.5
+    - _Min_Edge_Angle_In_Degrees: 88
     - _Normal_Strength: 1
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
     - _Blend_Color: {r: 1, g: 1, b: 1, a: 0}
     - _Edge_Color: {r: 0, g: 0, b: 0, a: 0}
-    - _Emissive_Color: {r: 1, g: 1, b: 1, a: 0}
+    - _Emissive_Color: {r: 8, g: 8, b: 8, a: 0}
     - _Non_Edge_Color: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []

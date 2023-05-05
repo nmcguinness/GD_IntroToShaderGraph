@@ -53,7 +53,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _Brightness_Multiplier: 20
-    - _Fresnel_Power: 10.41
+    - _Fresnel_Power: 9.58
     - _Opacity_Multiplier: 1
     - _QueueControl: 0
     - _QueueOffset: 0

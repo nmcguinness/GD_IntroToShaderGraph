@@ -3163,6 +3163,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 220566357}
     m_Modifications:
     - target: {fileID: 100000, guid: de9cd9612ba850c45b81fbf506bfaaa1, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: de9cd9612ba850c45b81fbf506bfaaa1, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
@@ -8187,7 +8191,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 100000, guid: 280a353c403060c44bf9605ac066d9fb, type: 3}
       propertyPath: m_Layer
-      value: 0
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 280a353c403060c44bf9605ac066d9fb, type: 3}
       propertyPath: m_StaticEditorFlags

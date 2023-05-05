@@ -42,6 +42,7 @@ Material:
     - _Diameter: 0.199
     - _Divider: 0.593
     - _Inner_Diameter: 0.15
+    - _Inner_Falloff_Diameter: 0
     - _Iris_Diameter: 0.62
     - _Lower: 0.206
     - _Outer_Falloff_Diameter: 0.25

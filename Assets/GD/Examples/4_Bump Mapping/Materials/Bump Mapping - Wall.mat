@@ -43,8 +43,8 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Bump_Offset: 0.339
-    - _Bump_Strength: 3.58
+    - _Bump_Offset: 0.32
+    - _Bump_Strength: 3.04
     - _Normal_Strength: 1.35
     - _QueueControl: 0
     - _QueueOffset: 0

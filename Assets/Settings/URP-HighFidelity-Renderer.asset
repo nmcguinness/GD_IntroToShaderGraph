@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6b3d386ba5cd94485973aee1479b272e, type: 3}
-  m_Name: RenderObjects
+  m_Name: Toon
   m_EditorClassIdentifier: 
   m_Active: 0
   settings:
-    passTag: RenderObjects
+    passTag: Toon
     Event: 1000
     filterSettings:
       RenderQueueType: 0
@@ -23,6 +23,84 @@ MonoBehaviour:
         m_Bits: 2147483647
       PassNames: []
     overrideMaterial: {fileID: 2100000, guid: 25fc17200fec20349b5b090565b7f27e, type: 2}
+    overrideMaterialPassIndex: 0
+    overrideDepthState: 0
+    depthCompareFunction: 4
+    enableWrite: 1
+    stencilSettings:
+      overrideStencilState: 0
+      stencilReference: 0
+      stencilCompareFunction: 8
+      passOperation: 0
+      failOperation: 0
+      zFailOperation: 0
+    cameraSettings:
+      overrideCamera: 0
+      restoreCamera: 1
+      offset: {x: 0, y: 0, z: 0, w: 0}
+      cameraFieldOfView: 60
+--- !u!114 &-8782001580860324494
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b3d386ba5cd94485973aee1479b272e, type: 3}
+  m_Name: Fever
+  m_EditorClassIdentifier: 
+  m_Active: 0
+  settings:
+    passTag: Fever
+    Event: 550
+    filterSettings:
+      RenderQueueType: 0
+      LayerMask:
+        serializedVersion: 2
+        m_Bits: 2147483647
+      PassNames: []
+    overrideMaterial: {fileID: 2100000, guid: c8e7a8238ef2857469cbfd8f3f2d1b49, type: 2}
+    overrideMaterialPassIndex: 0
+    overrideDepthState: 0
+    depthCompareFunction: 4
+    enableWrite: 1
+    stencilSettings:
+      overrideStencilState: 0
+      stencilReference: 0
+      stencilCompareFunction: 8
+      passOperation: 0
+      failOperation: 0
+      zFailOperation: 0
+    cameraSettings:
+      overrideCamera: 0
+      restoreCamera: 1
+      offset: {x: 0, y: 0, z: 0, w: 0}
+      cameraFieldOfView: 60
+--- !u!114 &-4334782429824847497
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b3d386ba5cd94485973aee1479b272e, type: 3}
+  m_Name: Cinema
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  settings:
+    passTag: Cinema
+    Event: 1000
+    filterSettings:
+      RenderQueueType: 0
+      LayerMask:
+        serializedVersion: 2
+        m_Bits: 2147483647
+      PassNames: []
+    overrideMaterial: {fileID: 2100000, guid: ab7fdaaf933e6494d8a5d08e00ca26ac, type: 2}
     overrideMaterialPassIndex: 0
     overrideDepthState: 0
     depthCompareFunction: 4
@@ -49,11 +127,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6b3d386ba5cd94485973aee1479b272e, type: 3}
-  m_Name: RenderObjects
+  m_Name: Color Banding
   m_EditorClassIdentifier: 
   m_Active: 0
   settings:
-    passTag: RenderObjects
+    passTag: Color Banding
     Event: 1000
     filterSettings:
       RenderQueueType: 0
@@ -111,17 +189,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6b3d386ba5cd94485973aee1479b272e, type: 3}
-  m_Name: Render Grayscale
+  m_Name: ' Grayscale'
   m_EditorClassIdentifier: 
   m_Active: 0
   settings:
-    passTag: Render Grayscale
+    passTag: ' Grayscale'
     Event: 1000
     filterSettings:
       RenderQueueType: 0
       LayerMask:
         serializedVersion: 2
-        m_Bits: 2147483647
+        m_Bits: 247
       PassNames: []
     overrideMaterial: {fileID: 2100000, guid: 7b0b453866bd46547aed790e298adc8e, type: 2}
     overrideMaterialPassIndex: 0
@@ -150,11 +228,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6b3d386ba5cd94485973aee1479b272e, type: 3}
-  m_Name: RenderObjects
+  m_Name: Iris
   m_EditorClassIdentifier: 
   m_Active: 0
   settings:
-    passTag: RenderObjects
+    passTag: Iris
     Event: 1000
     filterSettings:
       RenderQueueType: 0
@@ -201,7 +279,10 @@ MonoBehaviour:
   - {fileID: -447806567817720129}
   - {fileID: 1651018696866195246}
   - {fileID: -8867833757095969854}
-  m_RendererFeatureMap: adc0de57c6d2eee566a4ef2885a41bf32aaead9a46bfc4e0bf4e23954c12c9f92ee73ce0c198e916c2bb13852e20ef84
+  - {fileID: 693627147218964671}
+  - {fileID: -4334782429824847497}
+  - {fileID: -8782001580860324494}
+  m_RendererFeatureMap: adc0de57c6d2eee566a4ef2885a41bf32aaead9a46bfc4e0bf4e23954c12c9f92ee73ce0c198e916c2bb13852e20ef84bfd08d243742a0097771afc358c2d7c372c5e65b17102086
   m_UseNativeRenderPass: 0
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
@@ -241,6 +322,45 @@ MonoBehaviour:
   m_ClusteredRendering: 0
   m_TileSize: 32
   m_IntermediateTextureMode: 1
+--- !u!114 &693627147218964671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b3d386ba5cd94485973aee1479b272e, type: 3}
+  m_Name: Desaturation
+  m_EditorClassIdentifier: 
+  m_Active: 0
+  settings:
+    passTag: Desaturation
+    Event: 1000
+    filterSettings:
+      RenderQueueType: 0
+      LayerMask:
+        serializedVersion: 2
+        m_Bits: 2147483647
+      PassNames: []
+    overrideMaterial: {fileID: 2100000, guid: c9d0ab4acd5327642bda3cb074442f67, type: 2}
+    overrideMaterialPassIndex: 0
+    overrideDepthState: 0
+    depthCompareFunction: 4
+    enableWrite: 1
+    stencilSettings:
+      overrideStencilState: 0
+      stencilReference: 0
+      stencilCompareFunction: 8
+      passOperation: 0
+      failOperation: 0
+      zFailOperation: 0
+    cameraSettings:
+      overrideCamera: 0
+      restoreCamera: 1
+      offset: {x: 0, y: 0, z: 0, w: 0}
+      cameraFieldOfView: 60
 --- !u!114 &1651018696866195246
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -251,11 +371,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6b3d386ba5cd94485973aee1479b272e, type: 3}
-  m_Name: RenderObjects
+  m_Name: Binoculars
   m_EditorClassIdentifier: 
   m_Active: 0
   settings:
-    passTag: RenderObjects
+    passTag: Binoculars
     Event: 1000
     filterSettings:
       RenderQueueType: 0

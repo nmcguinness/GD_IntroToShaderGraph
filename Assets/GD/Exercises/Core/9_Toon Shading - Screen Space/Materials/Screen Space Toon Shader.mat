@@ -48,7 +48,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Color_Bands: 16
+    - _Color_Bands: 8
     - _Depth_Multiplier: 200
     - _Edge_Pixel_Width: 2
     - _Effect_Lerp: 0.788

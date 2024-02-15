@@ -10,6 +10,8 @@ Material:
   m_Name: Fragment Procedural Texture
   m_Shader: {fileID: -6465566751694194690, guid: 57b7161770ff74d4788d8c2658c75c3a,
     type: 3}
+  m_Parent: {fileID: 0}
+  m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -18,6 +20,7 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
@@ -49,7 +52,7 @@ Material:
     m_Floats:
     - Boolean_afcb884ea3344918b56118ca6f8b0cc7: 1
     - Vector1_690a595ab52f4d05bdd41f420ff68fc7: 1
-    - Vector1_be5e7d5d840a4add9fb768b32c447b0a: 0.145
+    - Vector1_be5e7d5d840a4add9fb768b32c447b0a: 0.13
     - Vector1_d81d7457c0974bb8ae50cb118c1826ca: 0.352
     - _QueueControl: 0
     - _QueueOffset: 0
@@ -68,4 +71,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: 5
+  version: 7

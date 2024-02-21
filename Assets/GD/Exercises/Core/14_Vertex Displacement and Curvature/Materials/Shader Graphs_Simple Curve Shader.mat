@@ -45,7 +45,7 @@ Material:
     - _LeftRightBendStrength: 0
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _UpDownBendStrength: -0.043
+    - _UpDownBendStrength: 0.027
     m_Colors: []
   m_BuildTextureStacks: []
 --- !u!114 &3824627663035671563

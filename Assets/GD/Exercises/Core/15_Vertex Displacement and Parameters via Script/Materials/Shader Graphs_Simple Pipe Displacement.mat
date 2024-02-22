@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Shader Graphs_Simple Curve Shader
-  m_Shader: {fileID: -6465566751694194690, guid: 765c6382ecee99647b15d9ccda3f38c8,
+  m_Name: Shader Graphs_Simple Pipe Displacement
+  m_Shader: {fileID: -6465566751694194690, guid: 2079b76dbcc0db140af9d5b50a0c5fbb,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -20,14 +20,10 @@ Material:
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
-  m_LockedProperties: _Surface_Texture
+  m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
-    - _Surface_Texture:
-        m_Texture: {fileID: 2800000, guid: dd2efc9ef90c67340a33309e1bf9611b, type: 3}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -42,13 +38,16 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _LeftRightBendStrength: 0
+    - _Displacement_Strength: 0.95
+    - _Panner: 0.77
+    - _Power: 0.004
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _UpDownBendStrength: 0.025
-    m_Colors: []
+    - _Width: 19.3
+    m_Colors:
+    - _Object_Space_Centre: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
---- !u!114 &3824627663035671563
+--- !u!114 &6790354231059252796
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

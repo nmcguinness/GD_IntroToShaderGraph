@@ -83,8 +83,8 @@ Material:
     m_Ints: []
     m_Floats:
     - _AlphaClip: 0
-    - _Amplitude: 2
-    - _AngularSpeed: 2
+    - _Amplitude: 0.6
+    - _AngularSpeed: 1.02
     - _Blend: 0
     - _BumpScale: 1
     - _ClearCoatMask: 0
@@ -98,12 +98,12 @@ Material:
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
-    - _MaxDistance: 5
+    - _MaxDistance: 5.38
     - _Metallic: 0
-    - _Normal_Lerp_Factor: 0.6
+    - _Normal_Lerp_Factor: 0.926
     - _OcclusionStrength: 1
     - _Parallax: 0.005
-    - _PhaseAngle: 5
+    - _PhaseAngle: 0
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
@@ -117,8 +117,8 @@ Material:
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Diffuse_Color: {r: 1, g: 0, b: 0, a: 0}
-    - _Distortion_Centre: {r: 8.585506, g: 0.4169426, b: 31.458, a: 0}
+    - _Diffuse_Color: {r: 0.5943396, g: 0.20465466, b: 0.20465466, a: 0}
+    - _Distortion_Centre: {r: -2.3497763, g: 1, b: -4.567872, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []

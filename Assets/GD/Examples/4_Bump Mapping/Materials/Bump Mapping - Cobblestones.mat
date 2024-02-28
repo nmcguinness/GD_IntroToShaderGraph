@@ -7,10 +7,10 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Fresnel_Inbuilt
-  m_Shader: {fileID: -6465566751694194690, guid: 6093276f80dd6184ebae8c2e1102a3e8,
+  m_Name: Bump Mapping - Cobblestones
+  m_Shader: {fileID: -6465566751694194690, guid: 7686de0125957954d86c94b4f8cb059b,
     type: 3}
-  m_Parent: {fileID: 0}
+  m_Parent: {fileID: 2100000, guid: cd6df87bcc359d348af74d491759ec42, type: 2}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
   m_InvalidKeywords: []
@@ -23,30 +23,12 @@ Material:
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs:
-    - unity_Lightmaps:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_LightmapsInd:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_ShadowMasks:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
+    m_TexEnvs: []
     m_Ints: []
-    m_Floats:
-    - Vector1_17a418ceaff848b4a130922a5528dce1: 1
-    - _QueueControl: 0
-    - _QueueOffset: 0
-    m_Colors:
-    - Color_4a48cd4b03b44ce28aab17445dd38fe7: {r: 3.8199556, g: 1.0543113, b: 0.16216786,
-        a: 0}
-    - _BaseColor: {r: 0.0013017772, g: 0.006289184, b: 0, a: 0}
+    m_Floats: []
+    m_Colors: []
   m_BuildTextureStacks: []
---- !u!114 &2476895227383432158
+--- !u!114 &2294861740755192574
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}

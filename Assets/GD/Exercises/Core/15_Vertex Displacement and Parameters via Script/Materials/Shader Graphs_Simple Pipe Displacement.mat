@@ -39,11 +39,12 @@ Material:
     m_Ints: []
     m_Floats:
     - _Displacement_Strength: 0.95
-    - _Panner: 0.77
-    - _Power: 0.004
+    - _Panner: 0.817
+    - _Power: 0.007
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Width: 19.3
+    - _Shape_Power: 4
+    - _Width: 7.3
     m_Colors:
     - _Object_Space_Centre: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []

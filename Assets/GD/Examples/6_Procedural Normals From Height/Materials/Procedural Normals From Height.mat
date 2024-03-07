@@ -25,7 +25,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _HeightMapForNormal:
-        m_Texture: {fileID: 2800000, guid: e58e0ce53c0725345b4594214030c89b, type: 3}
+        m_Texture: {fileID: 2800000, guid: 206256565ef8af84784ec661cc62c3f3, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _NormalFromTexture_ac2364f92d9443d6b0f08f67a3ee6a27_Texture_0:
@@ -66,13 +66,15 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - Vector1_bd9f941bda5245b7b24a73d9f7aae352: 0.5
+    - Vector1_bd9f941bda5245b7b24a73d9f7aae352: 0.105
+    - _Blend_Factor: 0.359
     - _Lerp_Factor: 0
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:
     - Vector2_66df57214b8546769176adf56c0d6e5f: {r: 0, g: 0, b: 0, a: 0}
     - Vector2_ac6a22b29a2240388e722250f4375abb: {r: 1, g: 1, b: 0, a: 0}
+    - _DirectionMultiplier: {r: 1, g: 1, b: 1, a: 0}
     - _Vector3: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &665649776485767172

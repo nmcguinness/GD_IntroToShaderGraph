@@ -63,10 +63,10 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Brightness: 2
+    - _Brightness: 1.66
     - _Normal_Strength: 0.25
-    - _POM_Amplitude: 6.9
-    - _POM_Steps: 8
+    - _POM_Amplitude: 3
+    - _POM_Steps: 4
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Smoothness: 0.25

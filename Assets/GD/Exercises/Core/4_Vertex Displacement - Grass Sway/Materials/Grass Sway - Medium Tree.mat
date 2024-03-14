@@ -45,7 +45,7 @@ Material:
     - Vector1_C61AECE6: 0.1
     - _Bias: 0.02
     - _Grass_Sway_Delay: 0
-    - _Phase: 3.14
+    - _Phase: 0
     - _Phase_Delay: 1
     - _QueueControl: 0
     - _QueueOffset: 0

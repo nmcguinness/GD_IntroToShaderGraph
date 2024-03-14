@@ -313,7 +313,8 @@ MonoBehaviour:
   - {fileID: 693627147218964671}
   - {fileID: -4334782429824847497}
   - {fileID: -8782001580860324494}
-  m_RendererFeatureMap: adc0de57c6d2eee566a4ef2885a41bf32aaead9a46bfc4e0bf4e23954c12c9f92ee73ce0c198e916c2bb13852e20ef84bfd08d243742a0097771afc358c2d7c372c5e65b17102086
+  - {fileID: 4063775117643073856}
+  m_RendererFeatureMap: adc0de57c6d2eee566a4ef2885a41bf32aaead9a46bfc4e0bf4e23954c12c9f92ee73ce0c198e916c2bb13852e20ef84bfd08d243742a0097771afc358c2d7c372c5e65b1710208640c92f4ef06d6538
   m_UseNativeRenderPass: 0
   postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
   xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
@@ -421,6 +422,48 @@ MonoBehaviour:
         m_Bits: 2147483647
       PassNames: []
     overrideMaterial: {fileID: 2100000, guid: 9e9d7a7785118ee4a87f9aa938702a7d, type: 2}
+    overrideMaterialPassIndex: 0
+    overrideShader: {fileID: 0}
+    overrideShaderPassIndex: 0
+    overrideMode: 1
+    overrideDepthState: 0
+    depthCompareFunction: 4
+    enableWrite: 1
+    stencilSettings:
+      overrideStencilState: 0
+      stencilReference: 0
+      stencilCompareFunction: 8
+      passOperation: 0
+      failOperation: 0
+      zFailOperation: 0
+    cameraSettings:
+      overrideCamera: 0
+      restoreCamera: 1
+      offset: {x: 0, y: 0, z: 0, w: 0}
+      cameraFieldOfView: 60
+--- !u!114 &4063775117643073856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b3d386ba5cd94485973aee1479b272e, type: 3}
+  m_Name: Edge Detection
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  settings:
+    passTag: Edge Detection
+    Event: 1000
+    filterSettings:
+      RenderQueueType: 0
+      LayerMask:
+        serializedVersion: 2
+        m_Bits: 4294967295
+      PassNames: []
+    overrideMaterial: {fileID: 2100000, guid: 5505911dbd9afb940a903a6b54c604b2, type: 2}
     overrideMaterialPassIndex: 0
     overrideShader: {fileID: 0}
     overrideShaderPassIndex: 0

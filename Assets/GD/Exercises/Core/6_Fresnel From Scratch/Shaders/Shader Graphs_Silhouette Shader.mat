@@ -38,7 +38,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Edge_Angle_In_Degree: 17.4
+    - _Edge_Angle_In_Degree: 67.4
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors:

@@ -45,10 +45,10 @@ Material:
     - _Diameter: 0.199
     - _Divider: 0.593
     - _Inner_Diameter: 0.15
-    - _Inner_Falloff_Diameter: 0
+    - _Inner_Falloff_Diameter: 0.203
     - _Iris_Diameter: 0.62
     - _Lower: 0.206
-    - _Outer_Falloff_Diameter: 0.25
+    - _Outer_Falloff_Diameter: 0.262
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Upper: 0.262
@@ -57,10 +57,10 @@ Material:
     - _Centre: {r: 0.11, g: 0, b: 0, a: 0}
     - _Fill_Color: {r: 0.14150941, g: 0.12482198, b: 0.12482198, a: 0}
     - _Left: {r: -0.2, g: 0, b: 0, a: 0}
-    - _Left_Iris_Position: {r: -0.2, g: 0, b: 0, a: 0}
+    - _Left_Iris_Position: {r: -0.3, g: 0, b: 0, a: 0}
     - _Offset: {r: 0.32, g: 0, b: 0, a: 0}
     - _Right: {r: 0.2, g: 0, b: 0, a: 0}
-    - _Right_Iris_Position: {r: 0.2, g: 0, b: 0, a: 0}
+    - _Right_Iris_Position: {r: 0.3, g: 0, b: 0, a: 0}
     - _Spherize: {r: 5, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &8766363914466110484

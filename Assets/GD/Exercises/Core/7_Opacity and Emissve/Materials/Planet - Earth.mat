@@ -24,6 +24,14 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _Base_Map:
+        m_Texture: {fileID: 2800000, guid: 29ef0792cc946744c9001036e57b35f2, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Emissive_Map:
+        m_Texture: {fileID: 2800000, guid: 4b96e75b81a4f924280d8bc0fd0d2bb6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_3afd2d50a93b48a69144109c6dcbc131_Texture_1:
         m_Texture: {fileID: 2800000, guid: 29ef0792cc946744c9001036e57b35f2, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -70,15 +78,15 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Normal_Strength: 5
+    - _Normal_Strength: 5.69
     - _QueueControl: 0
     - _QueueOffset: 0
     - _Rotation_Speed_Multiplier: 0.02
-    - _Smoothness_Multiplier: 0.73
+    - _Smoothness_Multiplier: 0.42
     - _UV_Rotation_Degrees: 0
     m_Colors:
     - _Emissive: {r: 2, g: 2, b: 2, a: 1}
-    - _Emissive_Color: {r: 2.9960785, g: 2.9960785, b: 2.9960785, a: 0}
+    - _Emissive_Color: {r: 5.301023, g: 3.5258577, b: 2.0920699, a: 0}
     - _Sun_Direction: {r: 2, g: 0, b: 0, a: 0}
     - _Vertex_Position: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []

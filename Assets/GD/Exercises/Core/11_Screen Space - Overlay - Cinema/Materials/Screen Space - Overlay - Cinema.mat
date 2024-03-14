@@ -57,11 +57,12 @@ Material:
     - _AlphaClip: 0
     - _AlphaToMask: 0
     - _Band_Power: 1.2
-    - _Band_Thickness: 0.642
+    - _Band_Thickness: 0.98
     - _Blend: 0
     - _CastShadows: 1
     - _Cull: 2
     - _DstBlend: 10
+    - _IsVerticalBanding: 1
     - _QueueControl: 0
     - _QueueOffset: 0
     - _SrcBlend: 5

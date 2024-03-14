@@ -63,16 +63,17 @@ Material:
     - _Cull: 2
     - _DstBlend: 10
     - _Effect_Lerp: 0.356
-    - _Effect_Scale: 0.876
-    - _Effect_Strength: 0.606
+    - _Effect_Scale: 0.948
+    - _Effect_Strength: 0.794
     - _Float: 0.843
-    - _Inner_Step_Edge: 0.618
-    - _Noise_Cell_Density: 18.9
-    - _Noise_Cell_Speed: 3.01
-    - _Outer_Step_Edge: 1.316
+    - _Inner_Step_Edge: 0.46
+    - _Iris_Power: 2
+    - _Noise_Cell_Density: 98
+    - _Noise_Cell_Speed: 5
+    - _Outer_Step_Edge: 1.28
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Scene_Brightness: 1.567
+    - _Scene_Brightness: 1.56
     - _Show_Noise: 0
     - _SrcBlend: 5
     - _Surface: 1

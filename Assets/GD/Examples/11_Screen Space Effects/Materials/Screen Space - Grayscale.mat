@@ -51,7 +51,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Lerp_Factor: 1
+    - _Lerp_Factor: 0.768
     - _QueueControl: 0
     - _QueueOffset: 0
     m_Colors: []

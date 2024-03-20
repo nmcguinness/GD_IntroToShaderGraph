@@ -2,7 +2,11 @@
     "m_SGVersion": 3,
     "m_Type": "UnityEditor.ShaderGraph.GraphData",
     "m_ObjectId": "d0d7a47d8aa74e2988a4ee89fdaf2c48",
-    "m_Properties": [],
+    "m_Properties": [
+        {
+            "m_Id": "40b60c40c95245509d885d03cfa7f897"
+        }
+    ],
     "m_Keywords": [],
     "m_Dropdowns": [],
     "m_CategoryData": [
@@ -461,15 +465,15 @@
     ],
     "m_VertexContext": {
         "m_Position": {
-            "x": 558.3333129882813,
-            "y": 767.0
+            "x": 2377.999755859375,
+            "y": 738.3333129882813
         },
         "m_Blocks": []
     },
     "m_FragmentContext": {
         "m_Position": {
-            "x": 541.0,
-            "y": 896.6666870117188
+            "x": 2360.66650390625,
+            "y": 867.9999389648438
         },
         "m_Blocks": [
             {
@@ -931,6 +935,34 @@
         "y": 0.0,
         "z": 0.0,
         "w": 0.0
+    }
+}
+
+{
+    "m_SGVersion": 1,
+    "m_Type": "UnityEditor.ShaderGraph.Internal.Vector1ShaderProperty",
+    "m_ObjectId": "40b60c40c95245509d885d03cfa7f897",
+    "m_Guid": {
+        "m_GuidSerialized": "458768cf-61a4-4cfa-b3c5-9e73cfc56852"
+    },
+    "m_Name": "Edge Sensitivity",
+    "m_DefaultRefNameVersion": 1,
+    "m_RefNameGeneratedByDisplayName": "Edge Sensitivity",
+    "m_DefaultReferenceName": "_Edge_Sensitivity",
+    "m_OverrideReferenceName": "",
+    "m_GeneratePropertyBlock": true,
+    "m_UseCustomSlotLabel": false,
+    "m_CustomSlotLabel": "",
+    "m_DismissedVersion": 0,
+    "m_Precision": 0,
+    "overrideHLSLDeclaration": false,
+    "hlslDeclarationOverride": 0,
+    "m_Hidden": false,
+    "m_Value": 4.0,
+    "m_FloatType": 1,
+    "m_RangeValues": {
+        "x": 4.0,
+        "y": 8.0
     }
 }
 
@@ -2671,7 +2703,11 @@
     "m_Type": "UnityEditor.ShaderGraph.CategoryData",
     "m_ObjectId": "cbb544a4a59946f698886da397340ec0",
     "m_Name": "",
-    "m_ChildObjectList": []
+    "m_ChildObjectList": [
+        {
+            "m_Id": "40b60c40c95245509d885d03cfa7f897"
+        }
+    ]
 }
 
 {

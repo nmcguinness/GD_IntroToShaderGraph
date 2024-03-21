@@ -39,5 +39,7 @@ Material:
     m_Ints: []
     m_Floats:
     - _Edge_Sensitivity: 4
-    m_Colors: []
+    - _Edge_Threshold: 0.063
+    m_Colors:
+    - _Edge_Color: {r: 16.20174, g: 11.510348, b: 2.4200706, a: 1}
   m_BuildTextureStacks: []

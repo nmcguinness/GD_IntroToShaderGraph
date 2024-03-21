@@ -20,7 +20,7 @@ MonoBehaviour:
       RenderQueueType: 0
       LayerMask:
         serializedVersion: 2
-        m_Bits: 4294967295
+        m_Bits: 503
       PassNames: []
     overrideMaterial: {fileID: 2100000, guid: 25fc17200fec20349b5b090565b7f27e, type: 2}
     overrideMaterialPassIndex: 0
@@ -223,7 +223,7 @@ MonoBehaviour:
       RenderQueueType: 0
       LayerMask:
         serializedVersion: 2
-        m_Bits: 4294967295
+        m_Bits: 247
       PassNames: []
     overrideMaterial: {fileID: 2100000, guid: 7b0b453866bd46547aed790e298adc8e, type: 2}
     overrideMaterialPassIndex: 0
@@ -456,12 +456,12 @@ MonoBehaviour:
   m_Active: 0
   settings:
     passTag: Edge Detection
-    Event: 1000
+    Event: 550
     filterSettings:
       RenderQueueType: 0
       LayerMask:
         serializedVersion: 2
-        m_Bits: 257
+        m_Bits: 4294967295
       PassNames: []
     overrideMaterial: {fileID: 2100000, guid: 5505911dbd9afb940a903a6b54c604b2, type: 2}
     overrideMaterialPassIndex: 0

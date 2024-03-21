@@ -480,7 +480,7 @@ GameObject:
   - component: {fileID: 1248782037}
   - component: {fileID: 1248782036}
   - component: {fileID: 1248782035}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Orange
   m_TagString: Untagged
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
@@ -587,7 +587,7 @@ GameObject:
   - component: {fileID: 1285542640}
   - component: {fileID: 1285542639}
   - component: {fileID: 1285542638}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Red
   m_TagString: Untagged
   m_Icon: {fileID: -964228994112308473, guid: 0000000000000000d000000000000000, type: 0}
